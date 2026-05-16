@@ -1,0 +1,6 @@
+.env
+agents/outputs/*.json
+.superpowers/
+node_modules/
+*.log
+logs/
