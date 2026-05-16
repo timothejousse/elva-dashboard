@@ -63,7 +63,7 @@ echo "✅ dashboard/index.html généré"
 # ─── Push GitHub Pages ───────────────────────────────────────────────────────
 echo "🚀 Push vers GitHub Pages..."
 cd "$BASE_DIR"
-git add dashboard/index.html
+git add dashboard/
 git commit -m "chore: daily dashboard update $DATE" --allow-empty
 git push origin main
 echo "✅ [$TIMESTAMP] Rapport terminé. Dashboard mis à jour."
