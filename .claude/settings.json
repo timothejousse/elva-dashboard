@@ -1,0 +1,35 @@
+{
+  "mcpServers": {
+    "meta-ads": {
+      "command": "npx",
+      "args": ["-y", "@pipeboard/meta-ads-mcp"],
+      "env": {
+        "META_ACCESS_TOKEN": "${META_ACCESS_TOKEN}",
+        "META_AD_ACCOUNT_ID": "${META_AD_ACCOUNT_ID}"
+      }
+    },
+    "shopify": {
+      "command": "npx",
+      "args": ["-y", "@shopify/dev-mcp@latest"],
+      "env": {
+        "SHOPIFY_STORE_URL": "${SHOPIFY_STORE_URL}",
+        "SHOPIFY_ACCESS_TOKEN": "${SHOPIFY_ACCESS_TOKEN}"
+      }
+    },
+    "pinterest": {
+      "command": "npx",
+      "args": ["-y", "@insightfulpipe/pinterest-ads-mcp"],
+      "env": {
+        "PINTEREST_ACCESS_TOKEN": "${PINTEREST_ACCESS_TOKEN}",
+        "PINTEREST_AD_ACCOUNT_ID": "${PINTEREST_AD_ACCOUNT_ID}"
+      }
+    },
+    "higgsfield": {
+      "command": "npx",
+      "args": ["-y", "@higgsfield/mcp-server"],
+      "env": {
+        "HIGGSFIELD_API_KEY": "${HIGGSFIELD_API_KEY}"
+      }
+    }
+  }
+}

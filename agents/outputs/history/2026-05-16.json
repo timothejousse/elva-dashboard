@@ -1,0 +1,15 @@
+{
+  "date": "2026-05-16",
+  "heure_rapport": "08:15",
+  "verdict_global": "⚠️ ROAS sous la cible",
+  "resume_executif": "Ton CPM élevé vient d'un hook score faible. Priorité : couper Lookalike 2% et tester l'angle confort.",
+  "kpis": {"roas": 1.8, "roas_cible": 2.5, "cpm": 14.2, "revenus": 86.0, "depense": 48.0},
+  "alerte": {"active": true, "message": "Adset Lookalike 2% — ROAS 0.6 depuis 3 jours · 18€/jour gaspillés", "urgence": "haute"},
+  "actions_prioritaires": [
+    {"rang": 1, "action": "Couper l'adset Lookalike 2%", "pourquoi": "ROAS 0.6 depuis 3 jours", "comment": "Meta Ads Manager > Désactiver Lookalike 2%", "impact": "+18€/jour", "tag": "urgent"},
+    {"rang": 2, "action": "Scaler Broad FR +20%", "pourquoi": "ROAS 2.8 stable sur 5 jours", "comment": "Budget : 12€ → 14€", "impact": "+20% revenus", "tag": "opportunite"},
+    {"rang": 3, "action": "Tourner brief lip sync #3", "pourquoi": "Gap hook score vs concurrents", "comment": "Voir brief ci-dessous", "impact": "-15% CPM potentiel", "tag": "creatif"}
+  ],
+  "winneuse_semaine": {"marque": "Concurrent A", "jours_actif": 52, "hook": "Le seul soutien-gorge que je remets tous les jours...", "hook_score": 78, "angle": "confort_quotidien", "lecon": "Question rhétorique + démonstration immédiate"},
+  "brief_semaine": {"titre": "Brief #1 — Confort quotidien", "hook": "Le seul soutien-gorge que je remets tous les jours...", "format": "9:16, 15s, lip sync", "cta": "Lien dans la bio"}
+}
